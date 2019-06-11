@@ -1,0 +1,22 @@
+{
+    "minmax": {
+        "complexCommand": {
+            "name": "minmax",
+            "phrase": "сделай окно меньше"
+        },
+        "commands_ids": [
+            "5ce43a17e119751481ff997d",
+            "5ce43a17e119751481ff997c",
+            "5ce43a17e119751481ff997c",
+            "5ce43a17e119751481ff997c",
+            "5ce43a17e119751481ff997c",
+            "5ce43a17e119751481ff997a"
+        ],
+        "readyArgs": {
+            "5ce41bfbfe56a30245f5d131": "правый",
+            "5ce41bfbfe56a30245f5d132": "верхний",
+            "5ce41bfbfe56a30245f5d130": "левее"
+        },
+        "_id": "5ce46f208b64d9507ef39e73"
+    }
+}

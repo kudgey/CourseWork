@@ -1,0 +1,100 @@
+{
+    "xy": {
+        "name": "xy",
+        "description": "xy",
+        "regex_pattern": "x (\\d+) y (\\d+)",
+        "type": "array int",
+        "_id": "5ce41bfbfe56a30245f5d12e"
+    },
+    "type": {
+        "name": "type",
+        "description": "type",
+        "regex_pattern": "тип ([а-я]+)",
+        "type": "enum двойной,одинарный",
+        "_id": "5ce41bfbfe56a30245f5d12f"
+    },
+    "direction": {
+        "name": "direction",
+        "description": "direction",
+        "regex_pattern": "([а-я]+)",
+        "type": "enum выше,ниже,левее,правее",
+        "_id": "5ce41bfbfe56a30245f5d130"
+    },
+    "horizontal": {
+        "name": "horizontal",
+        "description": "horizontal",
+        "regex_pattern": "по горизонтали ([а-я]+)",
+        "type": "enum правый,левый",
+        "_id": "5ce41bfbfe56a30245f5d131"
+    },
+    "vertical": {
+        "name": "vertical",
+        "description": "vertical",
+        "regex_pattern": "по вертикали ([а-я]+)",
+        "type": "enum верхний,нижний",
+        "_id": "5ce41bfbfe56a30245f5d132"
+    },
+    "text": {
+        "name": "text",
+        "description": "text",
+        "regex_pattern": "текст ([а-яa-z]+)",
+        "type": "str",
+        "_id": "5ce41bfbfe56a30245f5d133"
+    },
+    "lang": {
+        "name": "lang",
+        "description": "lang",
+        "regex_pattern": "язык ([а-я]+)",
+        "type": "enum русский,английский",
+        "_id": "5ce41bfbfe56a30245f5d134"
+    },
+    "shape_num": {
+        "name": "shape_num",
+        "description": "shape_num",
+        "regex_pattern": "(\\d+)",
+        "type": "int",
+        "_id": "5ce41bfbfe56a30245f5d135"
+    },
+    "color": {
+        "name": "color",
+        "description": "color",
+        "regex_pattern": "цвет ([ёа-я]+)",
+        "type": "str",
+        "_id": "5ce41bfbfe56a30245f5d136"
+    },
+    "shape": {
+        "name": "shape",
+        "description": "shape",
+        "regex_pattern": "форма ([а-я]+)",
+        "type": "enum линия,прямоугольник,все",
+        "_id": "5ce41bfbfe56a30245f5d137"
+    },
+    "width_low": {
+        "name": "width_low",
+        "description": "width_low",
+        "regex_pattern": "минимальная ширина (\\d+)",
+        "type": "int",
+        "_id": "5ce41bfbfe56a30245f5d138"
+    },
+    "width_up": {
+        "name": "width_up",
+        "description": "width_up",
+        "regex_pattern": "максимальная ширина (\\d+)",
+        "type": "int",
+        "_id": "5ce41bfbfe56a30245f5d139"
+    },
+    "height_low": {
+        "name": "height_low",
+        "description": "height_low",
+        "regex_pattern": "минимальная высота (\\d+)",
+        "type": "int",
+        "_id": "5ce41bfbfe56a30245f5d13a"
+    },
+    "height_up": {
+        "name": "height_up",
+        "description": "height_up",
+        "regex_pattern": "максимальная высота (\\d+)",
+        "type": "int",
+        "_id": "5ce41bfbfe56a30245f5d13b"
+    }
+}
